@@ -15,5 +15,6 @@
     "java.project.resourceFilters": [
         "node_modules",
         ".git"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

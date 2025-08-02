@@ -12,7 +12,7 @@
     <artifactId>ecommerce-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ecommerce-backend</name>
-    <description>ShopEase E-commerce Backend API</description>
+    <description>GreenCart Organic E-commerce Backend API</description>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>

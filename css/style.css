@@ -8,8 +8,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #2d5016;
+    background-color: #f8fdf4;
 }
 
 .container {
@@ -36,13 +36,14 @@ body {
 }
 
 .nav-logo h2 {
-    color: #007bff;
+    color: #4a7c59;
     font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .nav-logo a {
     text-decoration: none;
-    color: #007bff;
+    color: #4a7c59;
 }
 
 .nav-menu {
@@ -53,18 +54,18 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: #2d5016;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
 }
 
 .nav-link:hover, .nav-link.active {
-    color: #007bff;
+    color: #6b8e23;
 }
 
 .cart-count {
-    background: #dc3545;
+    background: #8fbc8f;
     color: white;
     border-radius: 50%;
     padding: 2px 6px;
@@ -90,7 +91,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #6b8e23 0%, #4a7c59 100%);
     color: white;
     text-align: center;
     padding: 150px 0 100px;
@@ -110,19 +111,23 @@ body {
 }
 
 .cta-button {
-    background: #28a745;
+    background: #6b8e23;
     color: white;
     border: none;
     padding: 15px 30px;
     font-size: 1.1rem;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background 0.3s ease;
-    animation: fadeInUp 1s ease 0.4s both;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(107, 142, 35, 0.3);
 }
 
 .cta-button:hover {
-    background: #218838;
+    background: #556b2f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(107, 142, 35, 0.4);
 }
 
 /* Featured Products */
@@ -190,7 +195,7 @@ body {
 .product-price {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #007bff;
+    color: #4a7c59;
     margin-bottom: 1rem;
 }
 
@@ -212,7 +217,7 @@ body {
 
 .add-to-cart {
     width: 100%;
-    background: #007bff;
+    background: #6b8e23;
     color: white;
     border: none;
     padding: 10px;
@@ -222,7 +227,7 @@ body {
 }
 
 .add-to-cart:hover {
-    background: #0056b3;
+    background: #556b2f;
 }
 
 /* Categories */
@@ -321,7 +326,7 @@ body {
 
 .auth-button {
     width: 100%;
-    background: #007bff;
+    background: #6b8e23;
     color: white;
     border: none;
     padding: 12px;
@@ -332,7 +337,7 @@ body {
 }
 
 .auth-button:hover {
-    background: #0056b3;
+    background: #218838;
 }
 
 .auth-links {
@@ -405,9 +410,9 @@ body {
 }
 
 .search-bar button {
-    background: #007bff;
+    background: #6b8e23;
     color: white;
-    border: 2px solid #007bff;
+    border: 2px solid #6b8e23;
     padding: 12px 20px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
@@ -543,7 +548,7 @@ body {
 }
 
 .quantity-controls button {
-    background: #007bff;
+    background: #6b8e23;
     color: white;
     border: none;
     width: 40px;
@@ -578,12 +583,12 @@ body {
 }
 
 .add-to-cart-btn {
-    background: #007bff;
+    background: #6b8e23;
     color: white;
 }
 
 .add-to-cart-btn:hover {
-    background: #0056b3;
+    background: #218838;
 }
 
 .buy-now-btn {
@@ -734,7 +739,7 @@ body {
 }
 
 .shop-now-btn {
-    background: #007bff;
+    background: #6b8e23;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -909,7 +914,7 @@ body {
 }
 
 .save-btn {
-    background: #007bff;
+    background: #6b8e23;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -960,7 +965,7 @@ body {
 }
 
 .add-address-btn {
-    background: #007bff;
+    background: #6b8e23;
     color: white;
     border: none;
     padding: 12px 24px;

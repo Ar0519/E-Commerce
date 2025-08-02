@@ -38,7 +38,7 @@ logging:
     org.springframework.security: DEBUG
     
 jwt:
-  secret: mySecretKey123456789012345678901234567890
+  secret: myVerySecretKeyForJWTTokenGenerationThatShouldBeLongEnoughForSecurity
   expiration: 86400000 # 24 hours in milliseconds
 
 file:
