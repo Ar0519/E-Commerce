@@ -1,6 +1,6 @@
-# ShopEase - Full-Stack E-Commerce Website
+# 🌱 GreenCart - Organic E-Commerce Platform
 
-A modern, responsive e-commerce website with a complete frontend and Spring Boot backend integration. featuring user authentication, product browsing, shopping cart, and order management.
+A modern, responsive organic e-commerce platform with a complete frontend and Spring Boot backend integration, featuring user authentication, organic product browsing, shopping cart, and sustainable order management.
 
 ## Features
 
@@ -9,12 +9,12 @@ A modern, responsive e-commerce website with a complete frontend and Spring Boot
 - Session management with localStorage
 - Password validation and security
 
-### 🛍️ Product Catalog
-- Product browsing with search and filters
-- Category-based filtering
+### 🌿 Organic Product Catalog
+- Organic product browsing with search and filters
+- Category-based filtering (Fruits, Vegetables, Grains, Dairy, etc.)
 - Price range filtering
-- Product sorting (name, price, rating)
-- Detailed product pages with specifications and reviews
+- Product sorting (name, price, rating, organic certification)
+- Detailed product pages with organic specifications and customer reviews
 
 ### 🛒 Shopping Cart
 - Add/remove items from cart
@@ -43,11 +43,11 @@ A modern, responsive e-commerce website with a complete frontend and Spring Boot
 - Cross-browser compatibility
 
 ### 🛡️ Admin Panel
-- Comprehensive dashboard with statistics
-- Product management (Add/Edit/Delete)
-- Category management
-- Order tracking and status updates
-- User management and analytics
+- Comprehensive dashboard with organic sales statistics
+- Organic product management (Add/Edit/Delete)
+- Category management for organic products
+- Order tracking and sustainable delivery updates
+- User management and green analytics
 - Review moderation
 - Real-time activity monitoring
 - Secure admin authentication
@@ -84,7 +84,14 @@ E-Commerce/
     └── api.js             # API integration
 ```
 
-## Getting Started
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (for development server)
+- Java 17+ (for backend)
+- MySQL (optional, H2 used by default)
+- Modern web browser
+- Passion for organic, sustainable living! 🌱
 
 1. **Clone or download** the project files to your local machine
 2. **Open** `index.html` in your web browser
@@ -121,6 +128,15 @@ For testing purposes, the following demo accounts are pre-created:
 - **MySQL** - Primary database (H2 for testing)
 - **JWT** - Token-based authentication
 - **Maven** - Build and dependency management
+
+## 🌟 Key Highlights
+
+- **Organic-First Design**: Clean, earth-friendly UI with natural color palette
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- **Real-time Updates**: Dynamic cart updates and live organic inventory
+- **Secure Authentication**: JWT-based authentication with proper validation
+- **Green Admin Dashboard**: Complete admin panel for managing organic products
+- **Sustainable API**: RESTful backend optimized for organic product management
 
 ## Features in Detail
 
