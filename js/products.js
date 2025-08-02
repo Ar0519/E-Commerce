@@ -1,4 +1,4 @@
-// Products JavaScript for ShopEase
+// Products JavaScript for GreenCart
 
 // Sample product data (in a real app, this would come from an API)
 const sampleProducts = [

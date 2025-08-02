@@ -1,4 +1,4 @@
-// Profile JavaScript for ShopEase
+// Profile JavaScript for GreenCart
 
 let currentUser = null;
 let userOrders = [];
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeProfile() {
     // Check if user is logged in
-    currentUser = window.ShopEase ? window.ShopEase.currentUser : null;
+    currentUser = window.GreenCart ? window.GreenCart.currentUser : null;
     
     if (!currentUser) {
         window.location.href = 'login.html';

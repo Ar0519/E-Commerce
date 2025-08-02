@@ -1,4 +1,4 @@
-// Product Detail JavaScript for ShopEase
+// Product Detail JavaScript for GreenCart
 
 let currentProduct = null;
 let selectedQuantity = 1;
