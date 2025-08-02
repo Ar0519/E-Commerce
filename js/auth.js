@@ -1,4 +1,4 @@
-// Authentication JavaScript for ShopEase
+// Authentication JavaScript for GreenCart
 
 document.addEventListener('DOMContentLoaded', function() {
     initializeAuth();

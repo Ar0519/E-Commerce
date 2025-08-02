@@ -1,4 +1,4 @@
-// Main JavaScript file for ShopEase E-commerce Website
+// Main JavaScript file for GreenCart Organic E-commerce Website
 
 // Global variables
 let currentUser = null;
@@ -330,7 +330,7 @@ function fadeOut(element, duration = 300) {
 }
 
 // Export functions for use in other files
-window.ShopEase = {
+window.GreenCart = {
     addToCart,
     removeFromCart,
     updateCartItemQuantity,

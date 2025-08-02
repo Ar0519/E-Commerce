@@ -1,4 +1,4 @@
-// Cart JavaScript for ShopEase
+// Cart JavaScript for GreenCart
 
 document.addEventListener('DOMContentLoaded', function() {
     initializeCart();

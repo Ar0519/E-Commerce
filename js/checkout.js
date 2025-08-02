@@ -1,4 +1,4 @@
-// Checkout JavaScript for ShopEase
+// Checkout JavaScript for GreenCart
 
 let orderSummary = {
     items: [],
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeCheckout() {
     // Check if user is logged in
-    const currentUser = window.ShopEase ? window.ShopEase.currentUser : null;
+    const currentUser = window.GreenCart ? window.GreenCart.currentUser : null;
     
     if (!currentUser) {
         window.location.href = 'login.html';
@@ -22,7 +22,7 @@ function initializeCheckout() {
     }
     
     // Check if cart has items
-    const cart = window.ShopEase ? window.ShopEase.cart : [];
+    const cart = window.GreenCart ? window.GreenCart.cart : [];
     
     if (cart.length === 0) {
         window.location.href = 'cart.html';

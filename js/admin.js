@@ -1,4 +1,4 @@
-// Admin Panel JavaScript for ShopEase
+// Admin Panel JavaScript for GreenCart
 
 let currentAdmin = null;
 let currentEditingProduct = null;
